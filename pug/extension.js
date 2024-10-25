@@ -48,7 +48,7 @@ const extension = {
 			const renderOptions = Object.assign(
 				{},
 				{
-					basedir: arg.eleventy.directories.includes,
+					basedir: extension.options.basedir ?? arg.eleventy.directories.includes,
 					filename: inputPath,
 					filters: extension.options.filters,
 					doctype: extension.options.doctype,
