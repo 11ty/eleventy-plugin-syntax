@@ -51,6 +51,14 @@ const extension = {
 					basedir: arg.eleventy.directories.includes,
 					filename: inputPath,
 					filters: extension.options.filters,
+					doctype: extension.options.doctype,
+					pretty: extension.options.pretty,
+					self: extension.options.self,
+					debug: extension.options.debug,
+					compileDebug: extension.options.compileDebug,
+					globals: extension.options.globals,
+					cache: extension.options.cache,
+					inlineRuntimeFunctions: extension.options.inlineRuntimeFunctions,
 				},
 				arg
 			)
