@@ -44,7 +44,6 @@ const extension = {
 			debugDev('rendering... received arg: %O',		arg)
 			debug(	 'about to render... inputPath: %O', 	inputPath)
 
-			//	TODO: clean up the setup and updating of options
 			const renderOptions = Object.assign(
 				{},
 				{
